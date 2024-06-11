@@ -254,7 +254,7 @@
             <targetReference>GetNext30DaysContracts</targetReference>
         </connector>
         <schedule>
-            <frequency>Once</frequency>
+            <frequency>Weekly</frequency>
             <startDate>2024-06-11</startDate>
             <startTime>12:15:00.000Z</startTime>
         </schedule>
