@@ -30,6 +30,12 @@ To Deploy code to your Salesforce Org, please create a Salesforce Developer Acoc
 7. Now you can Edit the Custom Label to as many days you want to pick up the Upcoming Ending Contracts to further renew them. 
     1. Next_N_Days_For_Contract_End (Default - 30 Days)
 
+8. Activate the below 2 Flows.
+    1. Automated_Contract_Renewal_Flow
+    2. Copy_Related_Files
+
+9. You are all Set now!
+
 
 
 # Salesforce DX Project: Next Steps
