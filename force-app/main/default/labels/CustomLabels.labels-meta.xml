@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Next_N_Days_For_Contract_End</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next N Days For Contract End</shortDescription>
+        <value>30</value>
+    </labels>
+</CustomLabels>
