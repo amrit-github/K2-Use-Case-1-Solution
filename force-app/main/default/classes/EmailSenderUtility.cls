@@ -45,7 +45,7 @@ public with sharing class EmailSenderUtility{
 		}catch(Exception ex){
 			System.debug('Exception Log Trace:: ' + ex.getMessage());
 		}
-    }
+	}
 	
 	public class ContractClass{
 		@InvocableVariable(required=true)
