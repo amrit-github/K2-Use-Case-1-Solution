@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>6</activeVersionNumber>
+    <activeVersionNumber>10</activeVersionNumber>
     <description>This Flow get Contracts getting expired in next 30 Days ( Custom Label : Next_N_Days_For_Contract_End ) and creates a new Contract for Renewal with updated Start Date and End Date and updates old Contracts to Renewed.
 It also sends email to the Customer intimating about Upcoming Contract Renewal with new Details.</description>
     <masterLabel>Automated Contract Renewal Flow</masterLabel>

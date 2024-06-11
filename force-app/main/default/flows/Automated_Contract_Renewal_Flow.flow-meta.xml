@@ -256,7 +256,7 @@
         <schedule>
             <frequency>Weekly</frequency>
             <startDate>2024-06-11</startDate>
-            <startTime>12:15:00.000Z</startTime>
+            <startTime>14:05:00.000Z</startTime>
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
