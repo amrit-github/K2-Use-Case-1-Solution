@@ -26,13 +26,22 @@ public with sharing class EmailSenderUtility{
 				for(Contract con : li){
 					Messaging.SingleEmailMessage mail = Messaging.renderStoredEmailTemplate(template.values()[0].Id, null, con.Id);
 					mail.setBccSender(false);
-					mail.setUseSignature(false);
+					mail.setUseSignature(true);
 					mail.setToAddresses(new List<String>{con.Customer_Email__c});
 					mail.setSaveAsActivity(false);
 					emailList.add(mail);
 				}            
 			}
-			Messaging.sendEmail(emailList);
+
+			for (Messaging.SendEmailResult mr : Messaging.sendEmail(emailList)) {
+				if (!mr.isSuccess()) {
+					for(Messaging.SendEmailError err : mr.getErrors()) {
+						System.debug('The following error has occurred.');                    
+						System.debug(err.getStatusCode() + ': ' + err.getMessage());
+						System.debug('fields that affected this error: ' + err.getFields());
+					}
+				}
+			}
 
 		}catch(Exception ex){
 			System.debug('Exception Log Trace:: ' + ex.getMessage());

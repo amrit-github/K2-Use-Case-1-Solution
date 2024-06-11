@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
     <activeVersionNumber>4</activeVersionNumber>
+    <description>This flow clones attached documents from Old Contracts to the new Contract Record.</description>
+    <masterLabel>Copy Related Files</masterLabel>
 </FlowDefinition>

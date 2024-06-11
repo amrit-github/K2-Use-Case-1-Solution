@@ -13,6 +13,11 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/ContractRenewalEmailTemplate</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>*</members>
         <name>FlowDefinition</name>
     </types>

@@ -1,0 +1,12 @@
+Hi {!Contract.CustomerSigned},
+
+This email is to inform you that below Contract will be renewed as per the below details.
+The Old Contract has been linked to the New Contract.
+
+Contract Number : {!Contract.ContractNumber}
+Contract Customer : {!Contract.Account}
+Renewed Start Date : {!Contract.StartDate}
+Renewed End Date : {!Contract.EndDate}
+
+Thanks,
+{!Contract.CompanySigned}

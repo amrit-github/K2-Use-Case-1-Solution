@@ -34,7 +34,9 @@ To Deploy code to your Salesforce Org, please create a Salesforce Developer Acoc
     1. Automated_Contract_Renewal_Flow
     2. Copy_Related_Files
 
-9. You are all Set now!
+9. Go to SetUp in you Salesforce Org and search for Contract Settings and make sure Auto-Calculate Contract End Date is checked. Save the settings.
+
+10. You are all Set now!
 
 
 
