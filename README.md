@@ -9,7 +9,7 @@ This repository contains Salesforce Code and Configuration to automate below fun
 
 ## How Do You Plan to Deploy Your Changes?
 
-To Deploy code to your Salesforce Org, please create a Salesforce Developer Acocunt and follow below steps as given.
+To Deploy code to your Salesforce Org, please create a Salesforce Developer Account and follow below steps as given.
 
 1. Install below items in your Local System from below given URL.
     1. VS Code
